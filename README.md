@@ -506,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [0904-leaf-similar-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/Mneach/Leetcode-Solution/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0988-flip-equivalent-binary-trees) |
@@ -1571,6 +1572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [0904-leaf-similar-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/Mneach/Leetcode-Solution/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0988-flip-equivalent-binary-trees) |
@@ -1626,6 +1628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [0904-leaf-similar-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/Mneach/Leetcode-Solution/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0988-flip-equivalent-binary-trees) |
