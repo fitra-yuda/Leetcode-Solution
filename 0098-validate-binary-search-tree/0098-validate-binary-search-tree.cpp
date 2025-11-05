@@ -11,26 +11,22 @@
  */
 class Solution {
 private:
-    void inOrder(vector<int> &node, TreeNode* root) {
+    bool dfs(TreeNode* root, long long minValue, long long maxValue) {
         if (root == NULL) {
-            return;
+            return true;
         }
 
-        inOrder(node, root -> left);
-        node.push_back(root -> val);
-        inOrder(node, root -> right);
+        if (!(minValue < root -> val && root -> val < maxValue)) {
+            return false;
+        }
+
+        bool leftResult = dfs(root -> left, minValue, root -> val);
+        bool rightResult = dfs(root -> right, root -> val, maxValue);
+
+        return leftResult && rightResult;
     }
 public:
     bool isValidBST(TreeNode* root) {
-        vector<int> node;
-        inOrder(node, root);
-
-        for (int i = 1; i < node.size(); i++) {
-            if (node[i - 1] >= node[i]) {
-                return false;
-            }
-        }
-
-        return true;
+        return dfs(root, LLONG_MIN, LLONG_MAX);
     }
 };
