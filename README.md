@@ -526,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/1558-course-schedule-iv) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -580,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/1558-course-schedule-iv) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Mneach/Leetcode-Solution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -1604,6 +1606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mneach/Leetcode-Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -1669,6 +1672,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mneach/Leetcode-Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mneach/Leetcode-Solution/tree/master/2306-create-binary-tree-from-descriptions) |
