@@ -10,32 +10,36 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
-        stack<TreeNode*> st;
-        int postOrderIndex = 0;
-        
-        for (int i = 0; i < preorder.size(); i++) {
-            TreeNode* newNode = new TreeNode(preorder[i]);
-            st.push(newNode);
+private:
+    TreeNode* constructTree(vector<int>& preorder, vector<int> &postorder, unordered_map<int,int> &postorderIdx, int &index, int currentIndex) {
 
-            while (postOrderIndex < postorder.size() && st.top() -> val == postorder[postOrderIndex]) {
-                TreeNode* currentNode = st.top();
-                st.pop();
-
-                if (st.size() == 0) return currentNode;
-
-                TreeNode* parent = st.top();
-                if (parent -> left == NULL) {
-                    parent -> left = currentNode;
-                } else {
-                    parent -> right = currentNode;
-                }
-
-                postOrderIndex++;
-            }
+        if (index >= postorder.size()) {
+            return NULL;
         }
 
-        return NULL;
+        int nextChildIndex = postorderIdx[preorder[index]];
+
+        if (nextChildIndex > currentIndex) {
+            return NULL;
+        }
+
+        TreeNode* root = new TreeNode(preorder[index]);
+        index++;
+
+        root -> left = constructTree(preorder, postorder, postorderIdx, index, nextChildIndex);
+        root -> right = constructTree(preorder, postorder, postorderIdx, index, nextChildIndex);
+
+        return root;
+    }
+public:
+    TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
+        unordered_map<int,int> postorderIdx;
+        int size = postorder.size();
+        int index = 0;
+        for (int i = 0; i < size; i++) {
+            postorderIdx[postorder[i]] = i;
+        }
+
+        return constructTree(preorder, postorder, postorderIdx, index, size);
     }
 };
