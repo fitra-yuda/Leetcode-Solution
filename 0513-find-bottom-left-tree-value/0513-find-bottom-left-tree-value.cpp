@@ -18,33 +18,22 @@ public:
 
         while (q.size() > 0) {
             int levelSize = q.size();
-            int currentResult = result;
-            bool check = false;
 
             for (int i = 0; i < levelSize; i++) {
                 TreeNode* currentNode = q.front();
                 q.pop();
 
-                if (currentNode -> left) {
-                    if (check == false) {
-                        currentResult = currentNode -> left -> val;
-                        check = true;
-                    }
+                result = currentNode -> val;
 
+                if (currentNode -> right) {
+                    q.push(currentNode -> right);
+                }
+
+                if (currentNode -> left) {
                     q.push(currentNode -> left);
                 }
 
-                if (currentNode -> right) {
-                    if (check == false) {
-                        currentResult = currentNode -> right -> val;
-                        check = true;
-                    }
-
-                    q.push(currentNode -> right);
-                }
             }
-
-            result = currentResult;
         }
 
         return result;
