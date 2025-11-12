@@ -10,26 +10,30 @@
  * };
  */
 class Solution {
-public:
-    
-    int answer = 0;
-    
-    void dfs(int depth, TreeNode* root, int current){
-        if(root){
-            current = (current * 10) + root->val;
-            dfs(depth + 1, root->left, current);
-            dfs(depth + 1, root->right, current);
-            
-            if(!root->left && !root->right){
-                answer += current;
-            }
+private:
+    void calculate(TreeNode* root, int currentNumber, int &answer) {
+        if (root == NULL) {
+            return;           
         }
+
+        currentNumber *= 10;
+        currentNumber += root -> val;
+
+        if (root -> left == NULL && root -> right == NULL) {
+            answer += currentNumber;
+            return;
+        }
+
+        calculate(root -> left, currentNumber, answer);
+        calculate(root -> right, currentNumber, answer);
+        
+        return;
     }
-    
+public:
     int sumNumbers(TreeNode* root) {
-        
-        dfs(0, root, 0);
-        
+        int answer = 0;
+        calculate(root, 0, answer);
+
         return answer;
     }
 };
