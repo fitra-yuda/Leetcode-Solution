@@ -10,45 +10,35 @@
  * };
  */
 class Solution {
-public:
-    int answer = 0;
-
-    pair<vector<int>, int> recursive(TreeNode* root, int distance){
-        if(root){
-            pair<vector<int>, int> left = recursive(root -> left, distance);
-            pair<vector<int>, int> right = recursive(root -> right, distance);
-
-            vector<int> temp;
-
-            for(int i = 0; i < left.first.size(); i++){
-                int first = left.first[i];
-                for(int j = 0; j < right.first.size(); j++){
-                    int second = right.first[j];
-
-                    if(first + second <= distance){
-                        answer++;
-                    }
-                }
-
-                temp.push_back(first + 1);
-            }
-
-            for(int i = 0; i < right.first.size(); i++){
-                temp.push_back(right.first[i] + 1);
-            }
-
-            if(left.second == 0 && right.second == 0){
-                temp.push_back(1);
-            }
-
-            return make_pair(temp, 1);
+private:
+    vector<int> dfs(TreeNode* root, int distance, int &answer) {
+        if (root == NULL) {
+            return {};
+        } else if (root -> left == NULL && root -> right == NULL) {
+            return {1};
         }
-        vector<int> temp;
-        return make_pair(temp, 0);
-    }
 
+        vector<int> left = dfs(root -> left, distance, answer);
+        vector<int> right = dfs(root -> right, distance, answer);
+
+        for (int i = 0; i < left.size(); i++) {
+            for (int j = 0; j < right.size(); j++) {
+                if (left[i] + right[j] <= distance) {
+                    answer++;
+                }
+            }
+        }
+
+        vector<int> results;
+        for (auto data : left) results.push_back(data + 1);
+        for (auto data : right) results.push_back(data + 1);
+
+        return results;
+    }
+public:
     int countPairs(TreeNode* root, int distance) {
-        pair<vector<int>, int> res = recursive(root, distance);
+        int answer = 0;
+        dfs(root, distance, answer);
 
         return answer;
     }
