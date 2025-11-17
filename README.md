@@ -1045,6 +1045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0826-soup-servings](https://github.com/Mneach/Leetcode-Solution/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0867-new-21-game) |
 | [0868-push-dominoes](https://github.com/Mneach/Leetcode-Solution/tree/master/0868-push-dominoes) |
+| [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0943-sum-of-subarray-minimums](https://github.com/Mneach/Leetcode-Solution/tree/master/0943-sum-of-subarray-minimums) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
@@ -1614,6 +1615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/Mneach/Leetcode-Solution/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -1686,6 +1688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/Mneach/Leetcode-Solution/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -2089,6 +2092,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Mneach/Leetcode-Solution/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0394-decode-string) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Mneach/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
+| [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mneach/Leetcode-Solution/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2050-count-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2050-count-good-numbers) |
@@ -2163,6 +2167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
+| [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Mneach/Leetcode-Solution/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
