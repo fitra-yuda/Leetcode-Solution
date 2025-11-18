@@ -532,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1450-delete-leaves-with-a-given-value](https://github.com/Mneach/Leetcode-Solution/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/Mneach/Leetcode-Solution/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -1638,6 +1639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/1275-validate-binary-tree-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1450-delete-leaves-with-a-given-value](https://github.com/Mneach/Leetcode-Solution/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/Mneach/Leetcode-Solution/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -1717,6 +1719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/1275-validate-binary-tree-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1450-delete-leaves-with-a-given-value](https://github.com/Mneach/Leetcode-Solution/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
