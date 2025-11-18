@@ -10,37 +10,44 @@
  * };
  */
 class Solution {
+private:
+    long long max(long long a, long long b) {
+        if (a > b) return a;
+        else return b;
+    }
 public:
     vector<int> largestValues(TreeNode* root) {
-        if (root == NULL) return {};
-
-        vector<int> answer;
+        if (root == NULL) {
+            return {};
+        }
+        
+        vector<int> results;
         queue<TreeNode*> q;
+
         q.push(root);
 
-        while (q.size() > 0) {
-            int size = q.size();
+        while(q.size() > 0) {
+            int levelSize = q.size();
+            long long maxValue = LLONG_MIN;
 
-            int maximumValue = INT_MIN;
-            for (int i = 0; i < size; i++) {
-                auto node = q.front();
+            for (int i = 0; i < levelSize; i++) {
+                TreeNode* currentNode = q.front();
                 q.pop();
 
-                maximumValue = max(maximumValue, node -> val);
+                maxValue = max(maxValue, currentNode -> val);
 
-                if (node -> left) q.push(node -> left);
-                if (node -> right) q.push(node -> right);
+                if (currentNode -> left) {
+                    q.push(currentNode -> left);
+                }
+
+                if (currentNode -> right) {
+                    q.push(currentNode -> right);
+                }
             }
 
-            answer.push_back(maximumValue);
+            results.push_back(maxValue);
         }
 
-        return answer;
+        return results;
     }
 };
-
-
-
-
-
-
