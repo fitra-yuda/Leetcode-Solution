@@ -11,7 +11,7 @@
  */
 class Solution {
 private:
-    int dfs(TreeNode* root, unordered_map<int,int> bucket) {
+    int dfs(TreeNode* root, unordered_map<int,int>& bucket) {
         bucket[root -> val]++;
 
         if (root -> left == NULL && root -> right == NULL) {
@@ -26,6 +26,11 @@ private:
                 } else {
                     totalOdd++;
                 }
+            }
+
+            bucket[root -> val]--;
+            if (bucket[root -> val] == 0) {
+                bucket.erase(root -> val);
             }
 
             if (totalNode % 2 == 0 && totalOdd == 0) {
@@ -46,6 +51,12 @@ private:
 
         if (root -> right) {
             result += dfs(root -> right, bucket);
+        }
+
+        bucket[root -> val]--;
+
+        if (bucket[root -> val] == 0) {
+            bucket.erase(root -> val);
         }
 
         return result;
