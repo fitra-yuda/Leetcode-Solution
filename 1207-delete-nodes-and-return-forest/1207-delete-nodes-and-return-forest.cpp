@@ -10,44 +10,44 @@
  * };
  */
 class Solution {
-public:
+private:
+    TreeNode* postorder(TreeNode* root, unordered_map<int,int> &hashMap, vector<TreeNode*> &results) {
+        if (root == NULL) {
+            return root;
+        }
 
-    TreeNode* search(TreeNode* root, unordered_map<int,int> &deleted, vector<TreeNode*> &answer){
-        
-        if(!root) return nullptr;
+        root -> left = postorder(root -> left, hashMap, results);
+        root -> right = postorder(root -> right, hashMap, results);
 
-        root -> left = search(root -> left, deleted, answer);
-        root -> right = search(root -> right, deleted, answer);
-
-        if(deleted[root -> val] > 0){
-            cout << root -> val << endl;
-            if(root -> left) {
-                answer.push_back(root -> left);
-            }
-            
-            if(root -> right) {
-                answer.push_back(root -> right);
+        if (hashMap[root -> val] > 0) {
+            if (root -> left) {
+                results.push_back(root -> left);
             }
 
-            delete root;
-            return nullptr;
+            if (root -> right) {
+                results.push_back(root -> right);
+            }
+
+            root = NULL;
         }
 
         return root;
     }
-
+public:
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        vector<TreeNode*> answer;
-        unordered_map<int,int> deleted;
+        vector<TreeNode*> results;
+        unordered_map<int,int> hashMap;
 
-        for(auto data : to_delete) deleted[data]++;
-
-        root = search(root, deleted, answer);
-
-        if(root){
-            answer.push_back(root);
+        for (auto number : to_delete) {
+            hashMap[number]++;
         }
 
-        return answer;
+        root = postorder(root, hashMap, results);
+
+        if (root != NULL) {
+            results.push_back(root);
+        }
+
+        return results;
     }
 };
