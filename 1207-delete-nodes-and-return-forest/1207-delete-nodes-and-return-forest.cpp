@@ -28,7 +28,8 @@ private:
                 results.push_back(root -> right);
             }
 
-            root = NULL;
+            delete root;
+            return nullptr;
         }
 
         return root;
