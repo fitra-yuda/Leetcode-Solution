@@ -10,55 +10,58 @@
  * };
  */
 class Solution {
+private:
+    bool dfs(TreeNode* root, int target, string &path) {
+        if (root == NULL) {
+            return false;
+        } else if (root -> val == target) {
+            return true;
+        }
+
+        path.push_back('L');
+        if(dfs(root -> left, target, path)) {
+            return true;
+        }
+
+        path.pop_back();
+        path.push_back('R');
+        if(dfs(root -> right, target, path)) {
+            return true;
+        }
+
+        path.pop_back();
+        return false;
+    }
 public:
     string getDirections(TreeNode* root, int startValue, int destValue) {
-        string startPath, destPath;
+        string startPath = "";
+        dfs(root, startValue, startPath);
+        
+        string destPath = "";
+        dfs(root, destValue, destPath);
 
-        findPath(root, startValue, startPath);
-        findPath(root, destValue, destPath);
-
-        string directions;
-        int commonPathLength = 0;
-
-        while (commonPathLength < startPath.length() &&
-               commonPathLength < destPath.length() &&
-               startPath[commonPathLength] == destPath[commonPathLength]) {
-            commonPathLength++;
+        string result = "";
+        int i = 0;
+        int j = 0;
+        
+        while (i < startPath.size() && j < destPath.size()) {
+            if (startPath[i] != destPath[j]) {
+                break;
+            }
+            i++;
+            j++;
         }
 
-        for (int i = 0; i < startPath.length() - commonPathLength; i++) {
-            directions += "U";
+        while (i < startPath.size()) {
+            result += 'U';
+            i++;
         }
 
-        for (int i = commonPathLength; i < destPath.length(); i++) {
-            directions += destPath[i];
+        while (j < destPath.size()) {
+            result += destPath[j];
+            j++;
         }
 
-        return directions;
-    }
-
-private:
-    bool findPath(TreeNode* node, int target, string& path) {
-        if (node == nullptr) {
-            return false;
-        }
-
-        if (node->val == target) {
-            return true;
-        }
-
-        path += "L";
-        if (findPath(node->left, target, path)) {
-            return true;
-        }
-        path.pop_back();  
-
-        path += "R";
-        if (findPath(node->right, target, path)) {
-            return true;
-        }
-        path.pop_back();  
-
-        return false;
+        return result;
     }
 };
