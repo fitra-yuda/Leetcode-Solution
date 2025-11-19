@@ -1,39 +1,40 @@
 class Solution {
-public:
-    
-    int dfs(vector<vector<char>>& grid, int totalRow, int totalColumn, int currentRow, int currentColumn){
-        //1. Check if current position out of grid
-        if(currentRow > totalRow || currentColumn > totalColumn || currentRow < 0 || currentColumn < 0) return 0;
-        else if(grid[currentRow][currentColumn] == '0') return 0; // 3. Not valid or already visited
+private:
+    void dfs(int row, int col, int totalRow, int totalCol, vector<vector<char>> &grid) {
+        if (row < 0 || row >= totalRow) {
+            return;
+        } else if (col < 0 || col >= totalCol) {
+            return;
+        } else if (grid[row][col] == '0') {
+            return;
+        }
 
-        int currentValue = 1;
-        grid[currentRow][currentColumn] = '0'; // -> mark as visited
-            currentValue += dfs(grid, totalRow, totalColumn, currentRow - 1, currentColumn); // move top
-        currentValue += dfs(grid, totalRow, totalColumn, currentRow + 1, currentColumn); // move bottom
-        currentValue += dfs(grid, totalRow, totalColumn, currentRow, currentColumn -1); // move left
-        currentValue += dfs(grid, totalRow, totalColumn, currentRow, currentColumn + 1); // move right
-
-        return currentValue;
+        grid[row][col] = '0';
+        // move to the bottom
+        dfs(row - 1, col, totalRow, totalCol, grid);
+        // move to the top
+        dfs(row + 1, col, totalRow, totalCol, grid);
+        // move to the right
+        dfs(row, col + 1, totalRow, totalCol, grid);
+        // move to the left
+        dfs(row, col - 1, totalRow, totalCol, grid);
     }
 
-
+public:
     int numIslands(vector<vector<char>>& grid) {
-        int answer = 0;
-
-        if(grid.size() == 0) return 0;
-
+        int result = 0;
         int totalRow = grid.size();
-        int totalColumn = grid[0].size();
+        int totalCol = grid[0].size();
 
-        for(int i = 0; i < totalRow; i++){
-            for(int j = 0; j < totalColumn; j++){
-                if(dfs(grid, totalRow - 1, totalColumn - 1, i, j) > 0){
-                    answer++;
+        for (int row = 0; row < totalRow; row++) {
+            for (int col = 0; col < totalCol; col++) {
+                if (grid[row][col] == '1') {
+                    result++;
+                    dfs(row, col, totalRow, totalCol, grid);
                 }
             }
-        }	
+        }
 
-        return answer;
-
+        return result;
     }
 };
