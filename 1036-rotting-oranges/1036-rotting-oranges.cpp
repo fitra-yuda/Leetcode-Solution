@@ -1,62 +1,57 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        vector<vector<int>> bucket(grid.size(), vector<int>(grid[0].size(), INT_MAX));
-
         // move : top, right, bottom , left
         int directionRow[] = {-1,0,1,0};
         int directionCol[] = {0,1,0,-1};
-        for (int row = 0; row < grid.size(); row++) {
-            for (int col = 0; col < grid[0].size(); col++) {
-                if (grid[row][col] == 2) {
-                    // first = row, second = col
-                    bucket[row][col] = 0;
-                    queue<pair<int,int>> q;
-                    vector<vector<bool>> visited(grid.size(), vector<bool>(grid[0].size(), false));
 
-                    q.push({row, col});
-                    visited[row][col] = true;
+        int time = 0;
+        int fresh = 0;
 
-                    while (q.size() > 0) {
-                        auto [currRow, currCol] = q.front();
-                        q.pop();
+        // row | col
+        queue<pair<int,int>> q;
 
-                        for (int i = 0; i < 4; i++) {
-                            int nextRow = currRow + directionRow[i];
-                            int nextCol = currCol + directionCol[i];
-
-                            if (nextRow < 0 || nextRow >= grid.size()) {
-                                continue;
-                            } else if (nextCol < 0 || nextCol >= grid[0].size()) {
-                                continue;
-                            } else if (grid[nextRow][nextCol] == 0) {
-                                continue;
-                            } else if (visited[nextRow][nextCol] == true) {
-                                continue;
-                            }
-
-                            bucket[nextRow][nextCol] = min(bucket[currRow][currCol] + 1, bucket[nextRow][nextCol]);
-                            q.push({nextRow, nextCol});
-                            visited[nextRow][nextCol] = true;
-                        }
-                    }
-                } else if (grid[row][col] == 0) {
-                    bucket[row][col] = 0;
+        for (int i = 0; i < grid.size(); i++) {
+            for (int j = 0; j < grid[0].size(); j++) {
+                if (grid[i][j] == 1) {
+                    fresh++;
+                } else if (grid[i][j] == 2) {
+                    q.push({i, j});
                 }
             }
         }
 
-        int result = INT_MIN;
-        for (int row = 0; row < bucket.size(); row++) {
-            for (int col = 0; col < bucket[0].size(); col++) {
-                if (bucket[row][col] == INT_MAX) {
-                    return -1;
-                } 
+        while (fresh > 0 && q.size() > 0) {
+            int size = q.size();
 
-                result = max(result, bucket[row][col]);
+            for (int i = 0; i < size; i++) {
+                auto [row, col] = q.front();
+                grid[row][col] = 0;
+                q.pop();
+
+                for (int i = 0; i < 4; i++) {
+                    int nextRow = row + directionRow[i];
+                    int nextCol = col + directionCol[i];
+
+                    if (nextRow < 0 || nextRow >= grid.size() || nextCol < 0 || nextCol >= grid[0].size()) {
+                        continue;
+                    } else if (grid[nextRow][nextCol] == 2 || grid[nextRow][nextCol] == 0) {
+                        continue;
+                    }
+
+                    grid[nextRow][nextCol] = 0;
+                    fresh--;
+                    q.push({nextRow,nextCol});
+                }
             }
+            
+            time++;
         }
 
-        return result;
+        if (fresh != 0) {
+            return -1;
+        }
+
+        return time;
     }
 };
