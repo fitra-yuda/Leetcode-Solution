@@ -41,13 +41,7 @@ public:
             for (int col = 0; col < totalCol; col++) {
                 if (board[row][col] == 'O') {
                     board[row][col] = 'X';
-                }
-            }
-        }
-
-        for (int row = 0; row < totalRow; row++) {
-            for (int col = 0; col < totalCol; col++) {
-                if (board[row][col] == 'Z') {
+                } else if (board[row][col] == 'Z') {
                     board[row][col] = 'O';
                 }
             }
