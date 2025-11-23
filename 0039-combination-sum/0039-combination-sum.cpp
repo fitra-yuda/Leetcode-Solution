@@ -1,6 +1,6 @@
 class Solution {
 private:
-    void construct(vector<int> &candidates, vector<int> numbers, vector<vector<int>> &results, int target, int index) {
+    void construct(vector<int> &candidates, vector<int> &numbers, vector<vector<int>> &results, int target, int index) {
         if (target < 0) {
             return;
         } else if (target == 0) {
