@@ -1,41 +1,32 @@
 class Solution {
-public:
-
-    void recursive(vector<int>& candidates, vector<vector<int>> &answer, int target, int current, int index, vector<int> &temp){
-
-        cout << current << endl;
-        if(current == target){
-            answer.push_back(temp);
+private:
+    void construct(vector<int> &candidates, vector<int> &combinations, vector<vector<int>> &results, int target, int index) {
+        if (target < 0) {
+            return;
+        } else if (target == 0) {
+            results.push_back(combinations);
+            return;
+        } else if (index >= candidates.size()) {
             return;
         }
 
-        if(current > target) return;
-
-        if(index >= candidates.size()) return;
-
-        // add current
-        temp.push_back(candidates[index]);
-        recursive(candidates, answer, target, current + candidates[index], index + 1, temp);
-        temp.pop_back();
-
-        // skip current
-        while(index + 1 < candidates.size() && candidates[index] == candidates[index + 1]){
-            index++;
+        for (int i = index; i < candidates.size(); i++) {
+            if (i > index && candidates[i] == candidates[i - 1]) {
+                continue;
+            }
+            combinations.push_back(candidates[i]);
+            construct(candidates, combinations, results, target - candidates[i], i + 1);
+            combinations.pop_back();
         }
-        
-        recursive(candidates, answer, target, current, index + 1, temp);
-
-        return;
     }
-
+public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>> answer;
-        vector<int> temp;
+        vector<vector<int>> results;
+        vector<int> combinations;
 
         sort(candidates.begin(), candidates.end());
+        construct(candidates, combinations, results, target, 0);
 
-        recursive(candidates, answer, target, 0, 0, temp);
-
-        return answer;
+        return results;
     }
 };
