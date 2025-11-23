@@ -1,28 +1,33 @@
 class Solution {
+private:
+    void construct(vector<int> &nums, vector<vector<int>> &permutations, vector<int> &permutation, unordered_map<int,int> &count) {
+        if (nums.size() == permutation.size()) {
+            permutations.push_back(permutation);
+            return;
+        }
+
+        for (auto& [key, value] : count) {
+            if (value <= 0) continue;
+
+            permutation.push_back(key);
+            value--;
+            construct(nums, permutations, permutation, count);
+            value++;
+            permutation.pop_back();
+        }
+    }
 public:
-    
-    set<vector<int>> bucket;
-    
-    void recursive(vector<int> nums, int begin){
-        if(begin == nums.size()){
-            bucket.insert(nums);
-        }else{
-            for(int i = begin; i < nums.size(); i++){
-                swap(nums[begin], nums[i]);
-                recursive(nums, begin + 1);
-            }
-        }
-    } 
-    
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        vector<vector<int>> answer;
-        
-        recursive(nums, 0);
-        
-        for(auto data : bucket){
-            answer.push_back(data);
+        vector<vector<int>> permutations;
+        vector<int> permutation;
+        unordered_map<int,int> count;
+
+        for (auto num : nums) {
+            count[num]++;
         }
-        
-        return answer;
+
+        construct(nums, permutations, permutation, count);
+
+        return permutations;
     }
 };
