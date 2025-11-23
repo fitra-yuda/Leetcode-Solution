@@ -1,26 +1,27 @@
 class Solution {
-public:
-    
-    void recursive(vector<int> candidates, int target, int currentSum, int index, vector<int> temp, vector<vector<int>> &answers){
-        if(currentSum > target) return;
-        
-        if(currentSum == target){
-            answers.push_back(temp);
+private:
+    void construct(vector<int> &candidates, vector<int> numbers, vector<vector<int>> &results, int target, int index) {
+        if (target < 0) {
+            return;
+        } else if (target == 0) {
+            results.push_back(numbers);
+        } else if (index >= candidates.size()) {
+            return;
         }
-        
-        for(int i = index; i < candidates.size(); i++){
-            temp.push_back(candidates[i]);
-            recursive(candidates, target, currentSum + candidates[i], i, temp, answers);
-            temp.pop_back();
+
+        for (int i = index; i < candidates.size(); i++) {
+            numbers.push_back(candidates[i]);
+            construct(candidates, numbers, results, target - candidates[i], i);
+            numbers.pop_back();
         }
     }
-    
+public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> answers;
-        vector<int> temp;
-        
-        recursive(candidates, target, 0, 0, temp, answers);
-        
-        return answers;
+        vector<vector<int>> results;
+        vector<int> numbers;
+
+        construct(candidates, numbers, results, target, 0);
+
+        return results;
     }
 };
