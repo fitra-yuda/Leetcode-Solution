@@ -1,27 +1,22 @@
 class Solution {
 private:
-    vector<vector<int>> construct(vector<int> &nums, int index) {
-        if (index >= nums.size() - 1) {
-            return {{nums[index]}};
-        } 
-
-        vector<vector<int>> results;
-        vector<vector<int>> nextResults = construct(nums, index + 1);
-
-        for (auto nextResult : nextResults) {
-            for (int i = 0; i <= nextResult.size(); i++) {
-                vector<int> result = nextResult;
-                result.insert(result.begin() + i, nums[index]);
-                results.push_back(result);
-            }
+    void construct(vector<int> &nums, vector<vector<int>> &permutations, int index) {
+        if (index >= nums.size()) {
+            permutations.push_back(nums);
+            return;
         }
 
-        return results;
+        for (int i = index; i < nums.size(); i++) {
+            swap(nums[i], nums[index]);
+            construct(nums, permutations, index + 1);
+            swap(nums[i], nums[index]);
+        }
     }
 public:
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> results = construct(nums, 0);
+        vector<vector<int>> permutations;
+        construct(nums, permutations, 0);
 
-        return results;
+        return permutations;
     }
 };
