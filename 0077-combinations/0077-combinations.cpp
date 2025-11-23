@@ -1,28 +1,24 @@
 class Solution {
-public:
-
-    void recursive(vector<vector<int>> &answer, vector<int> current, int n, int k, int start){
-        if(current.size() == k){
-            answer.push_back(current);
+private:
+    void construct(int n, int k, vector<int> &combination, vector<vector<int>> &combinations, int number) {
+        if (k == 0) {
+            combinations.push_back(combination);
             return;
         }
 
-        for(int i = start; i <= n; i++){
-            current.push_back(i);
-            recursive(answer, current, n, k, i + 1);
-            current.pop_back();
+        for (int i = number; i <= n; i++) {
+            combination.push_back(i);
+            construct(n, k - 1, combination, combinations, i + 1);
+            combination.pop_back();
         }
     }
-
+public:
     vector<vector<int>> combine(int n, int k) {
+        vector<vector<int>> combinations;
+        vector<int> combination;
 
-        if(n == 1 && k == 1) return {{1}};
+        construct(n, k, combination, combinations, 1);
 
-        vector<vector<int>> answer;
-        vector<int> current;
-
-        recursive(answer, current, n , k, 1);
-
-        return answer;
+        return combinations;
     }
 };
