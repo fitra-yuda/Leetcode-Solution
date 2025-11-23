@@ -1,8 +1,8 @@
 class Solution {
     
     private void construct(int[] nums, List<List<Integer>> subsets, List<Integer> subset, int index) {
-        subsets.add(new ArrayList<>(subset));
-        
+        subsets.add(List.copyOf(subset));
+
         for (int i = index; i < nums.length; i++) {
             if (i > index && nums[i] == nums[i - 1]) {
                 continue;
@@ -10,7 +10,7 @@ class Solution {
 
             subset.add(nums[i]);
             construct(nums, subsets, subset, i + 1); 
-            subset.remove(subset.size() - 1);
+            subset.removeLast();
         }
     }
     public List<List<Integer>> subsetsWithDup(int[] nums) {
