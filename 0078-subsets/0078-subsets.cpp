@@ -1,23 +1,26 @@
 class Solution {
-public:
-    
-    void recursive(vector<int> &nums, vector<vector<int>> &answer, vector<int> bucket, int index){
-        if(index == nums.size()){
-            answer.push_back(bucket);
-        }else{
-            bucket.push_back(nums[index]);
-            recursive(nums, answer, bucket, index + 1);
-            bucket.erase(bucket.begin() + bucket.size() - 1);
-            recursive(nums, answer, bucket , index + 1);
+private:
+    void construct(vector<int> &nums, vector<vector<int>> &results, vector<int> &result, int index) {
+        if (index >= nums.size()) {
+            results.push_back(result);
+            return;
         }
+
+        // take
+        result.push_back(nums[index]);
+        construct(nums, results, result, index + 1);
+        result.pop_back();
+
+        // skip
+        construct(nums, results, result, index + 1);
     }
-    
+public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> answer;
-        vector<int> bucket;
-        
-        recursive(nums, answer, bucket, 0);
-        
-        return answer;
+        vector<vector<int>> results;
+        vector<int> result;
+
+        construct(nums, results, result, 0);
+
+        return results;
     }
 };
