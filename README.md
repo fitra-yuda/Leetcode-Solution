@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0455-assign-cookies](https://github.com/Mneach/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0456-132-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0456-132-pattern) |
+| [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [0485-max-consecutive-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
@@ -1077,6 +1078,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0377-combination-sum-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
+| [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
@@ -2119,6 +2121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Mneach/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/Mneach/Leetcode-Solution/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/Mneach/Leetcode-Solution/tree/master/0342-power-of-four) |
+| [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [0476-number-complement](https://github.com/Mneach/Leetcode-Solution/tree/master/0476-number-complement) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Mneach/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
 | [0861-flipping-an-image](https://github.com/Mneach/Leetcode-Solution/tree/master/0861-flipping-an-image) |
@@ -2336,6 +2339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0095-unique-binary-search-trees-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0095-unique-binary-search-trees-ii) |
 | [0131-palindrome-partitioning](https://github.com/Mneach/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
+| [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0679-24-game) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Mneach/Leetcode-Solution/tree/master/1030-smallest-string-starting-from-leaf) |
@@ -2443,6 +2447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 |  |
 | ------- |
+| [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [2130-maximum-product-of-the-length-of-two-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2130-maximum-product-of-the-length-of-two-palindromic-subsequences) |
 ## Randomized
 |  |
