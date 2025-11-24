@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
@@ -492,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0099-recover-binary-search-tree) |
@@ -1384,6 +1386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Mneach/Leetcode-Solution/tree/master/0058-length-of-last-word) |
 | [0071-simplify-path](https://github.com/Mneach/Leetcode-Solution/tree/master/0071-simplify-path) |
+| [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
@@ -1775,6 +1778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Mneach/Leetcode-Solution/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/Mneach/Leetcode-Solution/tree/master/0289-game-of-life) |
@@ -2325,6 +2329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Mneach/Leetcode-Solution/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/Mneach/Leetcode-Solution/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0095-unique-binary-search-trees-ii) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
