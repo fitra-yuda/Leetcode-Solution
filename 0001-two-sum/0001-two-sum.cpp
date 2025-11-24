@@ -1,19 +1,19 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> answer;
+        int size = nums.size();
+        unordered_map<int,int> bucket;
 
-        unordered_map<int, int> umap;
+        for (int i = 0; i < size; i++) {
+            int reminder = target - nums[i];
 
-        for(int i = 0; i < nums.size(); i++){
-            int substract = target - nums[i];
-            if(umap.count(substract) > 0){    
-                return {umap[substract] , i};
-            }else{
-                umap[nums[i]] = i;
+            if (bucket.count(reminder) > 0) {
+                return {bucket[reminder], i};
             }
+
+            bucket[nums[i]] = i;
         }
 
-        return answer;
+        return {-1,-1};
     }
 };
