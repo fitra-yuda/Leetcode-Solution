@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0682-baseball-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0697-degree-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0697-degree-of-an-array) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0713-subarray-product-less-than-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0713-subarray-product-less-than-k) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -1085,6 +1086,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mneach/Leetcode-Solution/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/Mneach/Leetcode-Solution/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/Mneach/Leetcode-Solution/tree/master/0826-soup-servings) |
@@ -2123,6 +2125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Mneach/Leetcode-Solution/tree/master/0342-power-of-four) |
 | [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [0476-number-complement](https://github.com/Mneach/Leetcode-Solution/tree/master/0476-number-complement) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Mneach/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
 | [0861-flipping-an-image](https://github.com/Mneach/Leetcode-Solution/tree/master/0861-flipping-an-image) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -2248,6 +2251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Mneach/Leetcode-Solution/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
@@ -2342,6 +2346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0679-24-game) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Mneach/Leetcode-Solution/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Mneach/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -2448,6 +2453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0473-matchsticks-to-square) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [2130-maximum-product-of-the-length-of-two-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2130-maximum-product-of-the-length-of-two-palindromic-subsequences) |
 ## Randomized
 |  |
