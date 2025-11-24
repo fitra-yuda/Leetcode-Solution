@@ -1064,6 +1064,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Mneach/Leetcode-Solution/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mneach/Leetcode-Solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/Mneach/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
@@ -1388,6 +1389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/Mneach/Leetcode-Solution/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Mneach/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0171-excel-sheet-column-number) |
@@ -2332,6 +2334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0095-unique-binary-search-trees-ii) |
+| [0131-palindrome-partitioning](https://github.com/Mneach/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0679-24-game) |
