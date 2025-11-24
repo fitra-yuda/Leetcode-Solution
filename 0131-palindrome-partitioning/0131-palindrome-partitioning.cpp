@@ -1,42 +1,42 @@
 class Solution {
-public:
-    
-    bool checkPalindrome(string s, int start, int end){
+private:
+
+    bool isPalindrome(string &current) {
         
-        while(start < end){
-            
-            if(s[start] != s[end]){
+        for (int i = 0; i < current.size() / 2; i++) {
+            if (current[i] != current[current.size() - 1 - i]) {
                 return false;
             }
-            
-            start++;
-            end--;
         }
-        
+
         return true;
     }
-        
-    void dfs(vector<vector<string>> &answer, vector<string> &temp, string &s, int currentIndex){
-        
-        if(currentIndex >= s.length()){
-            answer.push_back(temp);
+
+    void construct(string &s, vector<vector<string>> &results, vector<string> &result, int index) {
+        if (result.size() > 0 && isPalindrome(result[result.size() - 1]) == false) {
+            return;
         }
-        
-        for(int i = currentIndex; i < s.length(); i++){
-            if(checkPalindrome(s, currentIndex, i)){
-                temp.push_back(s.substr(currentIndex, i - currentIndex + 1));
-                dfs(answer, temp, s, i + 1);
-                temp.pop_back();
-            }
+
+        if (index >= s.length()) {
+            results.push_back(result);
+            return; 
+        } 
+
+        string current = "";
+        for (int i = index; i < s.length(); i++) {
+            current += s[i];
+            result.push_back(current);
+            construct(s, results, result, i + 1);
+            result.pop_back();
         }
     }
-    
+public:
     vector<vector<string>> partition(string s) {
+        vector<vector<string>> results;
+        vector<string> result;
 
-        vector<vector<string>> answer;
-        vector<string> temp;
-        
-        dfs(answer, temp, s, 0);
-        return answer;
+        construct(s, results, result, 0);
+
+        return results;
     }
 };
