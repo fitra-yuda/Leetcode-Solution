@@ -1,22 +1,24 @@
 class Solution {
 public:
-    int helper(vector<int> &nums) {
+    int helper(vector<int> &nums, int start, int end) {
+
         int first = 0;
         int second = 0;
 
-        for (int i = 0; i < nums.size(); i++) {
-            int newResult = max(nums[i] + second, first);
+        while (start < end) {
+            int newResult = max(nums[start] + second, first);
             second = first;
             first = newResult;
+            start++;
         }
 
         return max(first, second);
     }
 
     int rob(vector<int>& nums) {
-        vector<int> nums1(nums.begin() + 1, nums.end());
-        vector<int> nums2(nums.begin(), nums.end() - 1);
+        int result = nums[0];        
+        int size = nums.size();
 
-        return max({nums[0], helper(nums1), helper(nums2)});
+        return max({result, helper(nums, 0, size - 1), helper(nums, 1, size)});
     }
 };
