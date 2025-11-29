@@ -1,24 +1,31 @@
 class Solution {
-    bool isPalindrome(const string& s, int lo, int hi) {
-        while (lo < hi) {
-            if (s[lo] != s[hi])
-                return false;
+public:
+    int countSubstrings(string s) {
+        int result = 0;
 
-            ++lo;
-            --hi;
+        for (int i = 0; i < s.length(); i++) {
+
+            // handle odd
+            int left = i;
+            int right = i;
+
+            while (left >= 0 && right < s.length() && s[left] == s[right]) {
+                result++;
+                left--;
+                right++;
+            }
+
+            // handle even
+            left = i - 1;
+            right = i;
+
+            while (left >= 0 && right < s.length() && s[left] == s[right]) {
+                result++;
+                left--;
+                right++;
+            }
         }
 
-        return true;
-    }
-
- public:
-    int countSubstrings(string s) {
-        int ans = 0;
-
-        for (int lo = 0; lo < s.size(); ++lo)
-            for (int hi = lo; hi < s.size(); ++hi)
-                ans += isPalindrome(s, lo, hi);
-
-        return ans;
+        return result;
     }
 };
