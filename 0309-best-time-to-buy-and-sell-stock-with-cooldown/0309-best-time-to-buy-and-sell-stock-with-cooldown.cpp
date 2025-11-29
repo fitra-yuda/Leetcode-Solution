@@ -1,42 +1,44 @@
+
+/*
+
+Note : 
+states : 
+- buy / skip
+- sell / skip
+- skip
+
+- buy = 0
+- skip = 1
+
+*/
+
 class Solution {
-public:
-
-    int recursive(vector<int> &prices, vector<int> &dp, int currentIndex, int profit){
-
-        if(currentIndex + 1 >= prices.size()) return profit;
-
-        if(dp[currentIndex] != INT_MIN) {
-            return profit + dp[currentIndex];
+private:
+    int calculate(vector<int> &prices, int index, int state, vector<vector<int>> &dp) {
+        if (index >= prices.size()) {
+            return 0;
         }
 
-        profit -= prices[currentIndex];
-
-        int res = INT_MIN;
-        for(int i = currentIndex; i < prices.size() - 1; i++){
-            profit += prices[i + 1];
-            res = max(res, recursive(prices, dp, i + 3, profit));
-            profit -= prices[i + 1];
+        if (dp[index][state] != -1) {
+            return dp[index][state];
         }
 
-        dp[currentIndex] = max(res, 0);
+        int currentResult = 0;
+        if (state == 0) {
+            currentResult = calculate(prices, index + 1, 1, dp) - prices[index];
+        } else {
+            currentResult = calculate(prices, index + 2, 0, dp) + prices[index];
+        }
 
-        return dp[currentIndex];
+        int skipState = calculate(prices, index + 1, state, dp);
+
+        dp[index][state] = max(currentResult, skipState);
+
+        return dp[index][state];
     }
-
+public:
     int maxProfit(vector<int>& prices) {
-        vector<int> dp(prices.size(), INT_MIN);
-        dp[dp.size() - 1] = 0;
-
-        for(int i = prices.size() - 2; i >= 0; i--){
-            dp[i] = max(recursive(prices, dp, i, 0), dp[i + 1]);   
-        }
-
-        int res = INT_MIN;
-        for(auto data : dp){
-            cout << data << " " ;
-            res = max(data, res);
-        }
-
-        return res;
+        vector<vector<int>> dp(prices.size(), vector<int>(2, -1));
+        return calculate(prices, 0, 0, dp);
     }
 };
