@@ -1,26 +1,26 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        
-        vector<int> bucket(amount + 1, -1);
-        bucket[0] = 0;
+        vector<int> dp(amount + 1, -1);
+        dp[0] = 0;
 
-        for(int i = 1; i <= amount; i++){
-            int current = i;
+        for (int i = 1; i <= amount; i++) {
 
-            int tempMax = -1;
-            for(auto coin : coins){
-                if(current - coin >= 0 && bucket[current - coin] >= 0){
-                    if(tempMax == -1) tempMax = bucket[current - coin] + 1;
-                    else tempMax = min(tempMax, bucket[current - coin] + 1);
+            int minimumCoin = INT_MAX;
+            for (int j = 0; j < coins.size(); j++) {
+                int coin = coins[j];
+
+                if (i - coin >= 0 && dp[i - coin] >= 0) { 
+                    minimumCoin = min(dp[i - coin] + 1, minimumCoin);
                 }
+                
             }
-
-            bucket[current] = tempMax;
+            
+            if (minimumCoin != INT_MAX) {
+                dp[i] = minimumCoin;
+            }
         }
 
-        // for(auto data : bucket) cout << data << " ";
-
-        return bucket[amount];
+        return dp[amount];
     }
 };
