@@ -1069,6 +1069,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
+| [0091-decode-ways](https://github.com/Mneach/Leetcode-Solution/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/Mneach/Leetcode-Solution/tree/master/0118-pascals-triangle) |
@@ -1405,6 +1406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Mneach/Leetcode-Solution/tree/master/0058-length-of-last-word) |
 | [0071-simplify-path](https://github.com/Mneach/Leetcode-Solution/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/Mneach/Leetcode-Solution/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Mneach/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
