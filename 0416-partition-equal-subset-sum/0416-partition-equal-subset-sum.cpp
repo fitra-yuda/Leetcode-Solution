@@ -1,38 +1,43 @@
 class Solution {
-public:
-
-    bool recursive(int size, vector<int> &nums, int subTotal, vector<vector<optional<bool>>> &dp){
-        if(subTotal == 0){
+private:
+    bool recursive(vector<int> &nums, vector<vector<int>> &dp, int index, int current, int total) {
+        if (current > total) {
+            return false;
+        } else if (current == total) {
             return true;
-        }
-
-        if(size == 0 || subTotal < 0){
+        } else if (index >= nums.size()) {
             return false;
         }
 
-        if(dp[size][subTotal] != nullopt){
-            return (dp[size][subTotal] == true);
+        if (dp[index][current] != -1) {
+            return dp[index][current];
         }
 
-        bool take = recursive(size - 1, nums, subTotal - nums[size - 1], dp);
-        bool skip = recursive(size - 1, nums, subTotal, dp);
+        bool take = recursive(nums, dp, index + 1, current + nums[index], total);
+        bool skip = recursive(nums, dp, index + 1, current, total);
 
-        dp[size][subTotal] = take || skip;
+        dp[index][current] = take || skip;
 
-        return take || skip;
+        return dp[index][current];
     }
-
+public:
     bool canPartition(vector<int>& nums) {
-        
         int total = 0;
-        for(auto data : nums) total += data;
 
-        if(total % 2 == 1) return false;
+        for (auto number : nums) {
+            total += number;
+        }
 
-        int subTotal = total / 2;
-        int size = nums.size();
-        vector<vector<optional<bool>>> dp(nums.size() + 1, vector<optional<bool>>(subTotal + 1, nullopt));
+        if (total % 2 == 1) {
+            return false;
+        }
 
-        return recursive(size, nums, subTotal, dp);
+        total /= 2;
+
+        vector<vector<int>> dp(nums.size(), vector<int>(total, -1));
+
+        bool result = recursive(nums, dp, 0, 0, total);
+
+        return result;
     }
 };
