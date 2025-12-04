@@ -1,21 +1,22 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> bucket(nums.size(), 1);
-        
-        for(int i = 1; i < nums.size(); i++){
-            for(int j = 0; j < i; j++){
-                if(nums[i] > nums[j]){
-                    bucket[i] = max(bucket[j] + 1, bucket[i]);
+        vector<int> dp(nums.size(), 0);
+        int result = 0;
+
+        for (int i = 0; i < nums.size(); i++) {
+            
+            for (int j = i - 1; j >= 0; j--) {
+                if (nums[i] > nums[j]) {
+                    dp[i] = max(dp[i], dp[j]);
                 }
             }
+
+            dp[i] += 1;
+
+            result = max(result, dp[i]);
         }
-        
-        int answer = 1;
-        for(auto data : bucket){
-            answer = max(data, answer);
-        }
-        
-        return answer;
+
+        return result;
     }
 };
