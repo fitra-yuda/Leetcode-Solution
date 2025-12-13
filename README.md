@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0679-24-game) |
 | [0682-baseball-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0682-baseball-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0697-degree-of-an-array) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0713-subarray-product-less-than-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0713-subarray-product-less-than-k) |
@@ -539,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0669-trim-a-binary-search-tree) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
@@ -610,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0617-merge-two-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
@@ -709,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Mneach/Leetcode-Solution/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -1812,6 +1816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/Mneach/Leetcode-Solution/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
