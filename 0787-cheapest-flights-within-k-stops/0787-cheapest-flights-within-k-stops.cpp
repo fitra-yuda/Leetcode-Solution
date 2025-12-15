@@ -43,8 +43,6 @@ public:
             auto [nodeNumber, cost, stop] = pq.top();
             pq.pop();
 
-            cout << nodeNumber << endl;
-
             if (visited[nodeNumber][stop]) {
                 continue;
             }
