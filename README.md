@@ -545,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
@@ -620,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
@@ -668,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/1275-validate-binary-tree-nodes) |
@@ -1113,6 +1116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mneach/Leetcode-Solution/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/Mneach/Leetcode-Solution/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/Mneach/Leetcode-Solution/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0867-new-21-game) |
@@ -1946,6 +1950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0658-find-k-closest-elements) |
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
@@ -2050,6 +2055,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/Mneach/Leetcode-Solution/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
