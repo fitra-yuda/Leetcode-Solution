@@ -44,24 +44,16 @@ public:
         int totalCol = obstacleGrid[0].size();
 
         vector<int> dp(totalCol, 0);
+        dp[0] = 1;
+
         for (int i = 0; i < totalRow; i++) {
             for (int j = 0; j < totalCol; j++) {
-                if (i == 0 && j == 0) {
-                    dp[j] = 1;
-                } else if (i == 0) {
-                    if (obstacleGrid[i][j] == 1) {
-                        dp[j] = 0;
-                    } else {
-                        dp[j] = dp[j - 1];
-                    }
-                } else if (j == 0) {
-                    if (obstacleGrid[i][j] == 1) {
-                        dp[j] = 0;
-                    }
+                    
+                if (obstacleGrid[i][j] == 1) {
+                    dp[j] = 0;
                 } else {
-                    if (obstacleGrid[i][j] == 1) {
-                        dp[j] = 0;
-                    } else {
+                    // not the first cell
+                    if (j != 0) {
                         dp[j] = dp[j - 1] + dp[j];
                     }
                 }
