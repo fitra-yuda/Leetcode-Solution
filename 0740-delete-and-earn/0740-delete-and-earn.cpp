@@ -38,22 +38,26 @@ public:
 
         arr.push_back({current, total});
 
-        vector<int> result(arr.size(), 0);
-        int answer = 0;
+        int currentResult = 0;
+        int prev = 0;
+        int prevprev = 0;
         for (int i = 0; i < arr.size(); i++) {
-            result[i] = arr[i].first * arr[i].second;
+            currentResult = arr[i].first * arr[i].second;
 
             if (i > 0 && arr[i].first - 1 != arr[i - 1].first) {
-                result[i] += result[i - 1];
+                currentResult += prev;
             }  else if (i > 0 && arr[i].first - 1 == arr[i - 1].first) {
                 if (i > 1) {
-                    result[i] = max(result[i] + result[i - 2], result[i - 1]);
+                    currentResult = max(currentResult + prevprev, prev);
                 } else {
-                    result[i] = max(result[i], result[i - 1]); 
+                    currentResult = max(currentResult, prev); 
                 }
             }
+
+            prevprev = prev;
+            prev = currentResult;
         }
 
-        return result[result.size() - 1]; 
+        return currentResult; 
     }
 };
