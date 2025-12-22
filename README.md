@@ -1091,6 +1091,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Mneach/Leetcode-Solution/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
+| [0062-unique-paths](https://github.com/Mneach/Leetcode-Solution/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0091-decode-ways](https://github.com/Mneach/Leetcode-Solution/tree/master/0091-decode-ways) |
@@ -1341,6 +1342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/0007-reverse-integer) |
+| [0062-unique-paths](https://github.com/Mneach/Leetcode-Solution/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Mneach/Leetcode-Solution/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
@@ -2485,6 +2487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Mneach/Leetcode-Solution/tree/master/0062-unique-paths) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/2415-count-the-number-of-ideal-arrays) |
