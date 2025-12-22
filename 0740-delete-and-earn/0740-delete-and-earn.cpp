@@ -43,19 +43,17 @@ public:
         for (int i = 0; i < arr.size(); i++) {
             result[i] = arr[i].first * arr[i].second;
 
-            int maxPrev = 0;
-            for (int j = i - 1; j >= 0; j--) {
-                if (arr[i].first - 1 == arr[j].first) {
-                    continue;
+            if (i > 0 && arr[i].first - 1 != arr[i - 1].first) {
+                result[i] += result[i - 1];
+            }  else if (i > 0 && arr[i].first - 1 == arr[i - 1].first) {
+                if (i > 1) {
+                    result[i] = max(result[i] + result[i - 2], result[i - 1]);
+                } else {
+                    result[i] = max(result[i], result[i - 1]); 
                 }
-
-                maxPrev = max(maxPrev, result[j]);
             }
-
-            result[i] += maxPrev;
-            answer = max(result[i] , answer);
         }
 
-        return answer;
+        return result[result.size() - 1]; 
     }
 };
