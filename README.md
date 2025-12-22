@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Mneach/Leetcode-Solution/tree/master/0051-n-queens) |
+| [0063-unique-paths-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
@@ -1087,6 +1088,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Mneach/Leetcode-Solution/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
+| [0063-unique-paths-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0091-decode-ways](https://github.com/Mneach/Leetcode-Solution/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0095-unique-binary-search-trees-ii) |
@@ -1822,6 +1824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Mneach/Leetcode-Solution/tree/master/0036-valid-sudoku) |
+| [0063-unique-paths-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
