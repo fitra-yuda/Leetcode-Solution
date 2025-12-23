@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
 | [0983-validate-stack-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-validate-stack-sequences) |
+| [0983-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-minimum-cost-for-tickets) |
 | [0985-bag-of-tokens](https://github.com/Mneach/Leetcode-Solution/tree/master/0985-bag-of-tokens) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -1138,6 +1139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-all-possible-full-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0930-all-possible-full-binary-trees) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0943-sum-of-subarray-minimums](https://github.com/Mneach/Leetcode-Solution/tree/master/0943-sum-of-subarray-minimums) |
+| [0983-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/Mneach/Leetcode-Solution/tree/master/1063-best-sightseeing-pair) |
 | [1143-longest-common-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/1143-longest-common-subsequence) |
