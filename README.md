@@ -614,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Mneach/Leetcode-Solution/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/Mneach/Leetcode-Solution/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Mneach/Leetcode-Solution/tree/master/0417-pacific-atlantic-water-flow) |
@@ -1109,6 +1110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
+| [0279-perfect-squares](https://github.com/Mneach/Leetcode-Solution/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mneach/Leetcode-Solution/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0322-coin-change) |
@@ -1356,6 +1358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
+| [0279-perfect-squares](https://github.com/Mneach/Leetcode-Solution/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Mneach/Leetcode-Solution/tree/master/0342-power-of-four) |
