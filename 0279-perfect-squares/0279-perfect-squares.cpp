@@ -1,36 +1,35 @@
-#include <vector>
-#include <unordered_set>
-#include <cmath>
-
 class Solution {
+private:
+    int dfs(vector<int> &arr, vector<int> &dp, int n) {
+        if (n == 0) {
+            return 0;
+        }
+
+        if (dp[n] != -1) {
+            return dp[n];
+        }
+
+        int result = INT_MAX;
+        for (int i = 0; i < arr.size(); i++) {
+            if (n - arr[i] >= 0) {
+                result = min(result, dfs(arr, dp, n - arr[i]) + 1);
+            }
+        }
+
+        return dp[n] = result;
+    }
 public:
     int numSquares(int n) {
-        std::vector<int> square_nums;
-        for (int i = 1; i * i <= n; ++i) {
-            square_nums.push_back(i * i);
+        vector<int> arr;
+
+        for (int i = 1; i * i <= n; i++) {
+            arr.push_back(i * i);
         }
 
-        std::unordered_set<int> queue;
-        queue.insert(n);
+        reverse(arr.begin(), arr.end());
 
-        int level = 0;
-        while (!queue.empty()) {
-            level += 1;
-            std::unordered_set<int> next_queue;
+        vector<int> dp(n + 1, -1);
 
-            for (int remainder : queue) {
-                for (int square : square_nums) {
-                    if (remainder == square) {
-                        return level;
-                    } else if (remainder < square) {
-                        break;
-                    } else {
-                        next_queue.insert(remainder - square);
-                    }
-                }
-            }
-            queue = next_queue;
-        }
-        return level;
+        return dfs(arr, dp, n);
     }
 };
