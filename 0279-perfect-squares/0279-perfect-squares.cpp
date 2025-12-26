@@ -1,23 +1,4 @@
 class Solution {
-private:
-    int dfs(vector<int> &arr, vector<int> &dp, int n) {
-        if (n == 0) {
-            return 0;
-        }
-
-        if (dp[n] != -1) {
-            return dp[n];
-        }
-
-        int result = INT_MAX;
-        for (int i = 0; i < arr.size(); i++) {
-            if (n - arr[i] >= 0) {
-                result = min(result, dfs(arr, dp, n - arr[i]) + 1);
-            }
-        }
-
-        return dp[n] = result;
-    }
 public:
     int numSquares(int n) {
         vector<int> arr;
@@ -27,9 +8,17 @@ public:
         }
 
         reverse(arr.begin(), arr.end());
+        vector<int> dp(n + 1, n + 1);
 
-        vector<int> dp(n + 1, -1);
+        dp[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < arr.size(); j++) {
+                if (i - arr[j] >= 0) {
+                    dp[i] = min(dp[i], dp[i - arr[j]] + 1);
+                }
+            }
+        }
 
-        return dfs(arr, dp, n);
+        return dp[n];
     }
 };
