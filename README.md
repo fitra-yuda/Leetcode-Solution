@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0713-subarray-product-less-than-k) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/Mneach/Leetcode-Solution/tree/master/0724-find-pivot-index) |
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0669-trim-a-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0669-trim-a-binary-search-tree) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -628,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/Mneach/Leetcode-Solution/tree/master/0743-network-delay-time) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
@@ -733,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -792,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0652-find-duplicate-subtrees](https://github.com/Mneach/Leetcode-Solution/tree/master/0652-find-duplicate-subtrees) |
 | [0697-degree-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0697-degree-of-an-array) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0740-delete-and-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
@@ -1018,6 +1023,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0658-find-k-closest-elements) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
@@ -1481,6 +1487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/0647-palindromic-substrings) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0680-valid-palindrome-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0680-valid-palindrome-ii) |
+| [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Mneach/Leetcode-Solution/tree/master/0768-partition-labels) |
