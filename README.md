@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Mneach/Leetcode-Solution/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1651-shuffle-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1651-shuffle-string) |
 | [1656-count-good-triplets](https://github.com/Mneach/Leetcode-Solution/tree/master/1656-count-good-triplets) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Mneach/Leetcode-Solution/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Mneach/Leetcode-Solution/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -576,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/1558-course-schedule-iv) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Mneach/Leetcode-Solution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2009-longest-word-with-all-prefixes](https://github.com/Mneach/Leetcode-Solution/tree/master/2009-longest-word-with-all-prefixes) |
@@ -648,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/1558-course-schedule-iv) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Mneach/Leetcode-Solution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1731-even-odd-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1731-even-odd-tree) |
 | [1876-map-of-highest-peak](https://github.com/Mneach/Leetcode-Solution/tree/master/1876-map-of-highest-peak) |
@@ -734,6 +738,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/1275-validate-binary-tree-nodes) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mneach/Leetcode-Solution/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2035-count-sub-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/2035-count-sub-islands) |
 | [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
@@ -1866,6 +1871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1628-count-submatrices-with-all-ones) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Mneach/Leetcode-Solution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1876-map-of-highest-peak](https://github.com/Mneach/Leetcode-Solution/tree/master/1876-map-of-highest-peak) |
@@ -1982,6 +1988,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Mneach/Leetcode-Solution/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1631-path-with-minimum-effort](https://github.com/Mneach/Leetcode-Solution/tree/master/1631-path-with-minimum-effort) |
 | [1917-maximum-average-pass-ratio](https://github.com/Mneach/Leetcode-Solution/tree/master/1917-maximum-average-pass-ratio) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mneach/Leetcode-Solution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2161-stock-price-fluctuation](https://github.com/Mneach/Leetcode-Solution/tree/master/2161-stock-price-fluctuation) |
