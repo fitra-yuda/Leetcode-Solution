@@ -5,14 +5,12 @@ public:
         int result = -1;
         int count = 0;
 
-        for (int i = 0; i < nums.size(); i++) {
-            bucket[nums[i]]++;
-
-            if (bucket[result] < bucket[nums[i]]) {
-                result = nums[i];
+        for (int i = 0; i < nums.size() - 2; i++) {
+            if (nums[i] == nums[i + 1] || nums[i] == nums[i + 2]) {
+                return nums[i];
             }
         }
 
-        return result;
+        return nums[nums.size() - 1];
     }
 };
