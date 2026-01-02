@@ -2,18 +2,14 @@ class Solution {
 public:
     int repeatedNTimes(vector<int>& nums) {
         unordered_map<int,int> bucket;
-
-        for (auto num : nums) {
-            bucket[num]++;
-        }
-
-        int result = 0;
+        int result = -1;
         int count = 0;
 
-        for (auto [key, value] : bucket) {
-            if (value > count) {
-                result = key;
-                count = value;
+        for (int i = 0; i < nums.size(); i++) {
+            bucket[nums[i]]++;
+
+            if (bucket[result] < bucket[nums[i]]) {
+                result = nums[i];
             }
         }
 
