@@ -197,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1386-shift-2d-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1386-shift-2d-grid) |
+| [1390-four-divisors](https://github.com/Mneach/Leetcode-Solution/tree/master/1390-four-divisors) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
@@ -1408,6 +1409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-day-of-the-year](https://github.com/Mneach/Leetcode-Solution/tree/master/1260-day-of-the-year) |
 | [1289-day-of-the-week](https://github.com/Mneach/Leetcode-Solution/tree/master/1289-day-of-the-week) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
+| [1390-four-divisors](https://github.com/Mneach/Leetcode-Solution/tree/master/1390-four-divisors) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/1421-find-numbers-with-even-number-of-digits) |
