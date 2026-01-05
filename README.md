@@ -258,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1940-maximum-xor-for-each-query](https://github.com/Mneach/Leetcode-Solution/tree/master/1940-maximum-xor-for-each-query) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Mneach/Leetcode-Solution/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1972-rotating-the-box](https://github.com/Mneach/Leetcode-Solution/tree/master/1972-rotating-the-box) |
+| [1975-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mneach/Leetcode-Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -1261,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1917-maximum-average-pass-ratio](https://github.com/Mneach/Leetcode-Solution/tree/master/1917-maximum-average-pass-ratio) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Mneach/Leetcode-Solution/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [1975-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/1975-maximum-matrix-sum) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/Mneach/Leetcode-Solution/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2089-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -1902,6 +1904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1876-map-of-highest-peak](https://github.com/Mneach/Leetcode-Solution/tree/master/1876-map-of-highest-peak) |
 | [1972-rotating-the-box](https://github.com/Mneach/Leetcode-Solution/tree/master/1972-rotating-the-box) |
+| [1975-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/1975-maximum-matrix-sum) |
 | [2035-count-sub-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/2035-count-sub-islands) |
 | [2089-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2132-convert-1d-array-into-2d-array) |
