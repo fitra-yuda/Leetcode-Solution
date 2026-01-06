@@ -10,34 +10,36 @@
  * };
  */
 class Solution {
-public:
-    
-    void bfs(TreeNode* root, int depth, unordered_map<int,int> &um){
-        if(root){
-            um[depth] += root->val;
-            bfs(root->left, depth + 1, um);
-            bfs(root->right, depth + 1, um);
+private:
+    void dfs(TreeNode* root, vector<long long> &depthSum, int depth) {
+        if (root == NULL) {
+            return;
         }
+
+        if (depthSum.size() < depth) {
+            depthSum.push_back(root -> val);
+        } else {
+            depthSum[depth - 1] += root -> val;
+        }
+
+        dfs(root -> left, depthSum, depth + 1);
+        dfs(root -> right, depthSum, depth + 1);
     }
-    
+public:
     int maxLevelSum(TreeNode* root) {
-        
-        if(!root) return 0;
-        
-        unordered_map<int,int> um;
-        
-        bfs(root, 1, um);
-        
-        int answer = -1;
-        int maximumLevel = INT_MIN;
-        
-        for(auto data : um){
-            if(maximumLevel <= data.second){
-                maximumLevel = data.second;
-                answer = data.first;
+        vector<long long> depthSum;
+
+        dfs(root, depthSum, 1);
+
+        int result = 0;
+        int total = INT_MIN;
+        for (int i = 0; i < depthSum.size(); i++) {
+            if (total < depthSum[i]) {
+                result = i + 1;
+                total = depthSum[i];
             }
         }
-        
-        return answer;
+
+        return result;
     }
 };
