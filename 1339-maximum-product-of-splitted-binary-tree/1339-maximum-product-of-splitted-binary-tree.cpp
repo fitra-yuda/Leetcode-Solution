@@ -1,27 +1,80 @@
-static int MOD=1e9+7;
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
-public:
-    long long totalTreeSum=0,result=0;
-    void getTotalTreeSum(TreeNode* root)    //Get total sum of the tree.
-    {
-        if(!root)
-            return;
-        totalTreeSum+=root->val;
-        getTotalTreeSum(root->left);
-        getTotalTreeSum(root->right);
-    }
-    int SumUnder(TreeNode* root)             //Get the totalSum under the node `root` including root.
-    {
-       if(!root)
+private:
+
+    long long sum(TreeNode *root) {
+        if (root == NULL) {
             return 0;
-       int sumUnderLeft=SumUnder(root->left),sumUnderRight=SumUnder(root->right); //Get the sum of left and right subtree under node 'root'
-       result=max({result,(totalTreeSum-sumUnderLeft)*sumUnderLeft,(totalTreeSum-sumUnderRight)*sumUnderRight});    //Get the max product after making left or right subtrees as seprarate tree.
-       return sumUnderLeft+sumUnderRight+root->val;
+        }
+
+        long long leftResult = sum(root -> left);
+        long long rightResult = sum(root -> right);
+
+        return root -> val + leftResult + rightResult;
     }
-    int maxProduct(TreeNode* root) 
-    {
-        getTotalTreeSum(root);
-        SumUnder(root);
-        return result%MOD;
+
+    long long calculate(long long a, long long b) {
+        return a * b;
+    }
+
+    long long max(long long a, long long b) {
+        if (a > b) return a;
+        else return b;
+    }
+
+    long long dfs(TreeNode* root, int sum, long long &result) {
+
+        // is leaf
+        if (root -> left == NULL && root -> right == NULL) {
+            return root -> val;
+        }
+
+        long long leftResult = 0;
+        if (root -> left) {
+            leftResult = dfs(root -> left, sum, result);
+        }
+
+        long long rightResult =  0;
+        if (root -> right) {
+            rightResult = dfs(root -> right, sum, result); 
+        }
+
+        long long left = calculate((sum - leftResult), leftResult);
+        long long right = calculate((sum - rightResult), rightResult);
+
+        result = max(result, max(left, right));
+
+        return root -> val + leftResult + rightResult;
+    }
+public:
+    int maxProduct(TreeNode* root) {
+        const int MOD = 1e9 + 7;
+        int total = sum(root);
+        long long result = 0;
+
+        dfs(root, total, result);
+
+        return result % MOD;
     }
 };
