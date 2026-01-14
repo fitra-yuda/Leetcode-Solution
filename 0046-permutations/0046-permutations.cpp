@@ -1,22 +1,25 @@
 class Solution {
 private:
-    void construct(vector<int> &nums, vector<vector<int>> &permutations, int index) {
-        if (index >= nums.size()) {
-            permutations.push_back(nums);
+    void dfs(vector<int> &nums, vector<int> &result, vector<vector<int>> &results) {
+        if (result.size() == nums.size()) {
+            results.push_back(result);
             return;
         }
 
-        for (int i = index; i < nums.size(); i++) {
-            swap(nums[i], nums[index]);
-            construct(nums, permutations, index + 1);
-            swap(nums[i], nums[index]);
+        for (auto num : nums) {
+            if (find(result.begin(), result.end(), num) == result.end()) {
+                result.push_back(num);
+                dfs(nums, result, results);
+                result.pop_back();
+            }
         }
     }
 public:
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> permutations;
-        construct(nums, permutations, 0);
+        vector<vector<int>> results;
+        vector<int> result;
+        dfs(nums, result, results);
 
-        return permutations;
+        return results;
     }
 };
