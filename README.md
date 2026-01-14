@@ -798,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0359-logger-rate-limiter](https://github.com/Mneach/Leetcode-Solution/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/Mneach/Leetcode-Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
@@ -1960,6 +1961,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
 | [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
+| [0359-logger-rate-limiter](https://github.com/Mneach/Leetcode-Solution/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
 | [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
@@ -2223,6 +2225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0359-logger-rate-limiter](https://github.com/Mneach/Leetcode-Solution/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/Mneach/Leetcode-Solution/tree/master/0937-online-stock-span) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
