@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1019-squares-of-a-sorted-array) |
+| [1020-number-of-enclaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1020-number-of-enclaves) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/Mneach/Leetcode-Solution/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/1046-max-consecutive-ones-iii) |
@@ -572,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/Mneach/Leetcode-Solution/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0988-flip-equivalent-binary-trees) |
+| [1020-number-of-enclaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1020-number-of-enclaves) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Mneach/Leetcode-Solution/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -654,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0945-snakes-and-ladders](https://github.com/Mneach/Leetcode-Solution/tree/master/0945-snakes-and-ladders) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/Mneach/Leetcode-Solution/tree/master/1036-rotting-oranges) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -759,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1020-number-of-enclaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1020-number-of-enclaves) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/1275-validate-binary-tree-nodes) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
@@ -1909,6 +1913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
 | [0945-snakes-and-ladders](https://github.com/Mneach/Leetcode-Solution/tree/master/0945-snakes-and-ladders) |
+| [1020-number-of-enclaves](https://github.com/Mneach/Leetcode-Solution/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/Mneach/Leetcode-Solution/tree/master/1036-rotting-oranges) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
