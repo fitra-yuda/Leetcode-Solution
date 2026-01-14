@@ -1,33 +1,35 @@
 class Solution {
-private:
-    void construct(vector<int> &nums, vector<vector<int>> &permutations, vector<int> &permutation, unordered_map<int,int> &count) {
-        if (nums.size() == permutation.size()) {
-            permutations.push_back(permutation);
-            return;
-        }
-
-        for (auto& [key, value] : count) {
-            if (value <= 0) continue;
-
-            permutation.push_back(key);
-            value--;
-            construct(nums, permutations, permutation, count);
-            value++;
-            permutation.pop_back();
-        }
+void dfs(vector<int> &permutation, vector<vector<int>> &results, unordered_map<int,int> &bucket, int n) {
+    if (n == permutation.size()) {
+        results.push_back(permutation);
     }
+
+    for (auto &[key, value] : bucket) {
+        if (value <= 0) {
+            continue;
+        }
+
+        value--;
+        permutation.push_back(key);
+
+        dfs(permutation, results, bucket, n);
+
+        value++;
+        permutation.pop_back();
+    }
+}
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        vector<vector<int>> permutations;
+        vector<vector<int>> results;
         vector<int> permutation;
-        unordered_map<int,int> count;
+        unordered_map<int,int> bucket;
 
         for (auto num : nums) {
-            count[num]++;
+            bucket[num]++;
         }
 
-        construct(nums, permutations, permutation, count);
+        dfs(permutation, results, bucket, nums.size());
 
-        return permutations;
+        return results;
     }
 };
