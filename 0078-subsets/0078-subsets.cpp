@@ -1,25 +1,19 @@
 class Solution {
 private:
-    void construct(vector<int> &nums, vector<vector<int>> &results, vector<int> &result, int index) {
-        if (index >= nums.size()) {
-            results.push_back(result);
-            return;
+    void dfs(vector<int> &nums, vector<int> &result, vector<vector<int>> &results, int index) {
+
+        results.push_back(result);
+        for (int i = index; i < nums.size(); i++) {
+            result.push_back(nums[i]);
+            dfs(nums, result, results, i + 1);
+            result.pop_back();
         }
-
-        // take
-        result.push_back(nums[index]);
-        construct(nums, results, result, index + 1);
-        result.pop_back();
-
-        // skip
-        construct(nums, results, result, index + 1);
     }
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> results;
         vector<int> result;
-
-        construct(nums, results, result, 0);
+        vector<vector<int>> results;
+        dfs(nums, result, results, 0);
 
         return results;
     }
