@@ -1,43 +1,43 @@
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int> results;
         vector<vector<int>> adjList(numCourses);
-        vector<int> inDegree(numCourses, 0);
+        vector<int> indegree(numCourses, 0);
 
         for (int i = 0; i < prerequisites.size(); i++) {
-            int dest = prerequisites[i][0];
             int source = prerequisites[i][1];
+            int dest = prerequisites[i][0];
 
             adjList[source].push_back(dest);
-            inDegree[dest]++;
+            indegree[dest]++;
         }
 
         queue<int> q;
-        for (int i = 0; i < inDegree.size(); i++) {
-            if (inDegree[i] == 0) {
+        for (int i = 0; i < indegree.size(); i++) {
+            if (indegree[i] == 0) {
                 q.push(i);
             }
         }
 
+        vector<int> results;
         while (q.size() > 0) {
             int node = q.front();
             q.pop();
             results.push_back(node);
 
-            for (auto nextNode : adjList[node]) {
-                inDegree[nextNode]--;
+            for (auto nei : adjList[node]) {
+                indegree[nei]--;
 
-                if (inDegree[nextNode] == 0) {
-                    q.push(nextNode);
+                if (indegree[nei] == 0) {
+                    q.push(nei);
                 }
             }
         }
 
-        if (results.size() != numCourses) {
-            return {};
+        if (results.size() == numCourses) {
+            return results;
         }
 
-        return results;
+        return {};
     }
 };
