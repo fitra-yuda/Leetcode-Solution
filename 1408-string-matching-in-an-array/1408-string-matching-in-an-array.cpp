@@ -1,6 +1,6 @@
 class Solution {
 private:
-    vector<int> generateLPS(string pattern) {
+    vector<int> generateLPS(string &pattern) {
         vector<int> LPS(pattern.size(), 0);
         int left = 0;
         int right = 1;
@@ -22,7 +22,7 @@ private:
         return LPS;
     }
 private:
-    bool isContain(vector<int> &LPS, string text, string pattern) {
+    bool isContain(vector<int> &LPS, string &text, string &pattern) {
         int textIndex = 0;
         int patternIndex = 0;
         
