@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1408-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1408-string-matching-in-an-array) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Mneach/Leetcode-Solution/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Mneach/Leetcode-Solution/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -1578,6 +1579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
 | [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
+| [1408-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1408-string-matching-in-an-array) |
 | [1434-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Mneach/Leetcode-Solution/tree/master/1434-decrypt-string-from-alphabet-to-integer-mapping) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -2529,6 +2531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0812-rotate-string) |
+| [1408-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1408-string-matching-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mneach/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2292-counting-words-with-a-given-prefix) |
