@@ -22,9 +22,7 @@ private:
         return LPS;
     }
 private:
-    bool isContain(string text, string pattern) {
-        vector<int> LPS = generateLPS(pattern);
-
+    bool isContain(vector<int> &LPS, string text, string pattern) {
         int textIndex = 0;
         int patternIndex = 0;
         
@@ -49,6 +47,7 @@ public:
         vector<string> results;
         for (int i = 0; i < words.size(); i++) {
             string pattern = words[i];
+            vector<int> LPS = generateLPS(pattern);
 
             for (int j = 0; j < words.size(); j++) {
                 if (i == j) {
@@ -57,7 +56,7 @@ public:
 
                 string text = words[j];
 
-                bool result = isContain(text, pattern);
+                bool result = isContain(LPS, text, pattern);
 
                 if (result) {
                     results.push_back(pattern);
