@@ -46,23 +46,22 @@ private:
     }
 public:
     vector<string> stringMatching(vector<string>& words) {
-        unordered_set<string> bucket;
         vector<string> results;
         for (int i = 0; i < words.size(); i++) {
-            string text = words[i];
+            string pattern = words[i];
 
             for (int j = 0; j < words.size(); j++) {
                 if (i == j) {
                     continue;
                 }
 
-                string pattern = words[j];
+                string text = words[j];
 
                 bool result = isContain(text, pattern);
 
-                if (result && bucket.find(pattern) == bucket.end()) {
+                if (result) {
                     results.push_back(pattern);
-                    bucket.insert(pattern);
+                    break;
                 }
             }
         }
