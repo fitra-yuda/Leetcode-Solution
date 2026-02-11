@@ -1401,6 +1401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/0007-reverse-integer) |
+| [0050-powx-n](https://github.com/Mneach/Leetcode-Solution/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Mneach/Leetcode-Solution/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Mneach/Leetcode-Solution/tree/master/0066-plus-one) |
 | [0096-unique-binary-search-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0096-unique-binary-search-trees) |
@@ -2307,6 +2308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Mneach/Leetcode-Solution/tree/master/0050-powx-n) |
 | [0203-remove-linked-list-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0203-remove-linked-list-elements) |
 | [0231-power-of-two](https://github.com/Mneach/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
