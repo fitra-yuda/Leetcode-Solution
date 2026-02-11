@@ -1,20 +1,26 @@
 class Solution {
-public:
-    
-    
-    double myPow(double x, int n) {
-       
-        if(n == 0) return 1;
-        else if(n == -1) return 1/x;
-        
-        double temp = myPow(x, n / 2);
-        cout << temp << endl;
-        if(n % 2 == 0){
-            return (temp * temp);
-        }else if(n % 2 == 1){
-            return (x * temp * temp);
-        }else{
-            return (temp * temp * (1 / x));
+private:
+    double calculate(double x, long long rank) {
+        if (rank == 0) {
+            return 1;
         }
+
+        double result = calculate(x, rank / 2);
+        result *= result;
+        if (rank % 2 == 1) {
+            result *= x;
+        }
+
+        return result;
+    }
+public:
+    double myPow(double x, int n) {
+        long long rank = n;
+        if (n < 0) {
+            x = 1 / x;
+            rank *= -1;
+        }
+
+        return calculate(x, rank);
     }
 };
