@@ -1540,6 +1540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/0647-palindromic-substrings) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0680-valid-palindrome-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0680-valid-palindrome-ii) |
+| [0686-repeated-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0686-repeated-string-match) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Mneach/Leetcode-Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
@@ -2535,6 +2536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
+| [0686-repeated-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0812-rotate-string) |
 | [1408-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1408-string-matching-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1524-string-matching-in-an-array) |
