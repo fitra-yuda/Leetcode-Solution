@@ -63,15 +63,10 @@ public:
 
         if (check(a, b, LPS)) {
             return result;
+        } else if (check(a + temp, b, LPS)) {
+            return result + 1;
+        } else {
+            return -1;
         }
-
-        a += temp;
-        result++;
-
-        if (check(a, b, LPS)) {
-            return result;
-        }
-
-        return -1;
     }
 };
