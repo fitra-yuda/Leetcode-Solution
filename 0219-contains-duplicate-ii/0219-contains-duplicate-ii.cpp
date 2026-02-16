@@ -1,42 +1,33 @@
-/*
-
-How to solve the problem
-
-# Using sliding window
-1. loop from first index of nums until last index of nums
-2. if nums[i] already exists in the hashtable
-   - return true
-3. otherwise
-   - put nums[i] in the hashtable
-4. if (i >= k)
-   - erase hashtable with key = nums[i - k]
-
-Time Complexity : O(N)
-N -> size of nums
-
-Memory Complexity : O(K)
-
-*/
-
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-        unordered_map<int,int> hashTable;
+        unordered_map<int,int> bucket;
 
-        for (int i = 0; i < nums.size(); i++) {
-            int number = nums[i];
+        int left = 0;
+        int right = 0;
+        bool result = false;
 
-            if (hashTable[number] > 0) {
-                return true;
+        while (right < nums.size()) {
+            bucket[nums[right]]++;
+
+            if (right - left > k) {
+                bucket[nums[left]]--;
+
+                if (bucket[nums[left]] == 0) {
+                    bucket.erase(nums[left]);
+                }
+
+                left++;
             }
 
-            hashTable[number]++;
-
-            if (i >= k) {
-                hashTable.erase(nums[i - k]);
+            if (bucket[nums[right]] > 1) {
+                result = true;
+                break;
             }
-        }        
 
-        return false;
+            right++;
+        }
+
+        return result;
     }
 };
