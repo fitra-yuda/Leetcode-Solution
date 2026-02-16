@@ -1411,6 +1411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0171-excel-sheet-column-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0171-excel-sheet-column-number) |
 | [0189-rotate-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/Mneach/Leetcode-Solution/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/Mneach/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1517,6 +1518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0224-basic-calculator](https://github.com/Mneach/Leetcode-Solution/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
@@ -1698,6 +1700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Mneach/Leetcode-Solution/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Mneach/Leetcode-Solution/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0173-binary-search-tree-iterator) |
+| [0224-basic-calculator](https://github.com/Mneach/Leetcode-Solution/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/Mneach/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 | [0227-basic-calculator-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/Mneach/Leetcode-Solution/tree/master/0232-implement-queue-using-stacks) |
@@ -2315,6 +2318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/Mneach/Leetcode-Solution/tree/master/0050-powx-n) |
 | [0203-remove-linked-list-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0203-remove-linked-list-elements) |
+| [0224-basic-calculator](https://github.com/Mneach/Leetcode-Solution/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/Mneach/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
