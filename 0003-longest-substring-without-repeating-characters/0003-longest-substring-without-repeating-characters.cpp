@@ -8,18 +8,12 @@ public:
         int result = 0;
 
         while (right < s.length()) {
-            bucket[s[right]]++;
 
-            while (left < right && bucket[s[right]] > 1) {
-                bucket[s[left]]--;
-
-                if (bucket[s[left]] == 0) {
-                    bucket.erase(s[left]);
-                }
-
-                left++;
+            if (bucket.count(s[right]) > 0) {
+                left = max(left, bucket[s[right]] + 1);
             }
-
+           
+            bucket[s[right]] = right;
             result = max(result, (right - left) + 1);
             right++;
         }
