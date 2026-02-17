@@ -1585,6 +1585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
+| [1392-longest-happy-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/1392-longest-happy-prefix) |
 | [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1408-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1408-string-matching-in-an-array) |
 | [1434-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Mneach/Leetcode-Solution/tree/master/1434-decrypt-string-from-alphabet-to-integer-mapping) |
@@ -2544,6 +2545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0686-repeated-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0812-rotate-string) |
+| [1392-longest-happy-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/1392-longest-happy-prefix) |
 | [1408-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1408-string-matching-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mneach/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -2565,6 +2567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
+| [1392-longest-happy-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/1392-longest-happy-prefix) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
@@ -2575,6 +2578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
+| [1392-longest-happy-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/1392-longest-happy-prefix) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
