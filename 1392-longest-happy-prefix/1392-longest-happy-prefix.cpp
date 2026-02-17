@@ -25,12 +25,7 @@ public:
     string longestPrefix(string s) {
         vector<int> LPS = generateLPS(s);
         int patternLength = LPS[s.length() - 1];
-        string result = "";
 
-        for (int i = 0; i < patternLength; i++) {
-            result += s[i];
-        }
-
-        return result;
+        return s.substr(0, patternLength);
     }
 };
