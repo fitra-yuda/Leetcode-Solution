@@ -1518,6 +1518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0214-shortest-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/Mneach/Leetcode-Solution/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
@@ -2541,6 +2542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0214-shortest-palindrome) |
 | [0459-repeated-substring-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0686-repeated-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0686-repeated-string-match) |
@@ -2567,6 +2569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
+| [0214-shortest-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0214-shortest-palindrome) |
 | [1392-longest-happy-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/1392-longest-happy-prefix) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -2574,6 +2577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
+| [0214-shortest-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0214-shortest-palindrome) |
 | [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
