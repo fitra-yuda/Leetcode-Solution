@@ -21,8 +21,8 @@ private:
 
         return LPS;
     }
-public:
-    int strStr(string haystack, string needle) {
+
+    int kmp(string &haystack, string &needle) {
         vector<int> LPS = generateLPS(needle);
 
         // construct the answer
@@ -49,5 +49,34 @@ public:
         }
 
         return result;
+    }
+
+    int indexOf(string text, string pattern) {
+        int compareTextIndex = 0;
+        int textIndex = 0;
+        int patternIndex = 0;
+        int result = -1;
+
+        while (textIndex < text.length()) {
+            if (text[textIndex] == pattern[patternIndex]) {
+                textIndex++;
+                patternIndex++;
+            } else {
+                compareTextIndex += 1;
+                textIndex = compareTextIndex;
+                patternIndex = 0;
+            } 
+
+            if (patternIndex == pattern.length()) {
+                result = textIndex - patternIndex;
+                break;
+            }
+        }
+
+        return result;
+    }
+public:
+    int strStr(string haystack, string needle) {
+        return indexOf(haystack, needle);
     }
 };
