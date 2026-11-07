@@ -1,63 +1,23 @@
 class Solution {
-private:
-    char getMaximumCharacter(unordered_map<char,int> &bucket){ 
-        char keyResult = ' ';
-        int maxValue = 0;
-
-        for (auto [key, value] : bucket) {
-            if (key == ' ') {
-                keyResult = key;
-                maxValue = value;
-            } else if (maxValue < value) {
-                keyResult = key;
-                maxValue = value;
-            }
-        }
-
-        return keyResult;
-    }
-
-    int calculateKUsed(unordered_map<char,int> &bucket) {
-        char maximumCharacter = getMaximumCharacter(bucket);
-        int totalKUsed = 0;
-
-        for (auto [key, value] : bucket) {
-            if (key == maximumCharacter) {
-                continue;
-            }
-
-            totalKUsed += value;
-        }
-
-        return totalKUsed;
-    }
 public:
     int characterReplacement(string s, int k) {
-        unordered_map<char,int> bucket;        
-
+        unordered_map<int,int> hashTable;
         int left = 0;
         int right = 0;
         int result = 0;
 
+        int maxCount = 0;
         while (right < s.length()) {
-            bucket[s[right]]++;
+            hashTable[s[right]]++;
 
-            if (bucket.size() > 1) {
-                int kUsed = calculateKUsed(bucket);
+            maxCount = max(maxCount, hashTable[s[right]]);
 
-                while (kUsed > k) {
-                    bucket[s[left]]--;
-                    left++;
-
-                    if (bucket[s[left]] == 0) {
-                        bucket.erase(s[left]);
-                    }
-
-                    kUsed = calculateKUsed(bucket);
-                }
+            if ((right - left + 1) - maxCount > k) {
+                hashTable[s[left]]--;
+                left++;
             }
 
-            result = max(result, (right - left) + 1);
+            result = max(result, right - left + 1);
             right++;
         }
 
