@@ -9,14 +9,14 @@ private:
             return dp[left][right];
         }
 
-        int result = 0;
-        if (turn == 0) {
-            result = max(result, dfs(piles, left + 1, right, 1, dp) + piles[left]);
-            result = max(result, dfs(piles, left, right - 1, 1, dp) + piles[right]);
-        } else {
-            result = max(result, dfs(piles, left + 1, right, 0, dp)); 
-            result = max(result, dfs(piles, left, right - 1, 0, dp));
-        }
+        turn = (turn + 1) % 2;
+        int leftResult = turn == 0 ? piles[left] : 0;
+        int rightResult = turn == 0 ? piles[right] : 0;
+
+        int result = max(
+            dfs(piles, left + 1, right, turn, dp) + leftResult,
+            dfs(piles, left, right - 1, turn, dp) + rightResult
+        );
 
         dp[left][right] = result;
         return dp[left][right];
