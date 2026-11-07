@@ -2639,4 +2639,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/Mneach/Leetcode-Solution/tree/master/0374-guess-number-higher-or-lower) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/fitra-yuda/Leetcode-Solution/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
