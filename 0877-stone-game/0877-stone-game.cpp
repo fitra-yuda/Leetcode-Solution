@@ -1,35 +1,41 @@
 class Solution {
 private:
-    // 0 -> alice, 1 -> bob
-    bool dfs(vector<int>& piles, vector<vector<vector<int>>> &dp, int left, int right, int turn, int alice, int bob) {
+    int dfs(vector<int> &piles, int left, int right, int turn, vector<vector<int>> &dp) {
         if (left > right) {
-            if (alice > bob) {
-                return true;
-            } else {
-                return false;
-            }
+            return 0;
         }
 
-        if (dp[left][right][turn] != -1) {
-            return dp[left][right][turn];
+        if (dp[left][right] != -1) {
+            return dp[left][right];
         }
 
-        bool leftResult = false;
-        bool rightResult = false;
+        int result = 0;
         if (turn == 0) {
-            leftResult = dfs(piles, dp, left + 1, right, 1, alice + piles[left], bob);
-            rightResult = dfs(piles, dp, left, right - 1, 1, alice + piles[right], bob);
+            result = max(result, dfs(piles, left + 1, right, 1, dp) + piles[left]);
+            result = max(result, dfs(piles, left, right - 1, 1, dp) + piles[right]);
         } else {
-            leftResult = dfs(piles, dp, left + 1, right, 0 , alice, bob + piles[left]);
-            rightResult = dfs(piles, dp, left, right - 1, 0, alice, bob + piles[right]);
+            result = max(result, dfs(piles, left + 1, right, 0, dp)); 
+            result = max(result, dfs(piles, left, right - 1, 0, dp));
         }
 
-        dp[left][right][turn] = leftResult || rightResult;
-        return dp[left][right][turn];
+        dp[left][right] = result;
+        return dp[left][right];
     }
 public:
     bool stoneGame(vector<int>& piles) {
-        vector<vector<vector<int>>> dp(piles.size(), vector<vector<int>>(piles.size(), vector<int>(2, -1)));
-        return dfs(piles, dp, 0, piles.size() - 1, 0, 0, 0);
+        int sum = 0;
+        for (auto pile : piles) {
+            sum += pile;
+        }
+
+        vector<vector<int>> dp(piles.size(), vector<int>(piles.size(), -1));
+
+        int alice = dfs(piles, 0, piles.size() - 1, 0, dp);
+
+        if (alice > sum - alice) {
+            return true;
+        } else {
+            return false;
+        }
     }
 };
