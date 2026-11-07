@@ -1,22 +1,21 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> dp(nums.size(), 0);
-        int result = 0;
+        int result = 1;
 
-        for (int i = 0; i < nums.size(); i++) {
-            
-            for (int j = i - 1; j >= 0; j--) {
-                if (nums[i] > nums[j]) {
-                    dp[i] = max(dp[i], dp[j]);
-                }
+        vector<int> bucket;
+        bucket.push_back(nums[0]);
+
+        for (int i = 1; i < nums.size(); i++) {
+            if (bucket[bucket.size() - 1] < nums[i]) {
+                bucket.push_back(nums[i]);
+                result++;
+            } else {
+                int findIndex = lower_bound(bucket.begin(), bucket.end(), nums[i]) - bucket.begin();
+                bucket[findIndex] = nums[i];
             }
-
-            dp[i] += 1;
-
-            result = max(result, dp[i]);
         }
-
+        
         return result;
     }
 };
