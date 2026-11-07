@@ -23,19 +23,20 @@ private:
     }
 public:
     bool stoneGame(vector<int>& piles) {
-        int sum = 0;
-        for (auto pile : piles) {
-            sum += pile;
-        }
+        return true;
+        // int sum = 0;
+        // for (auto pile : piles) {
+        //     sum += pile;
+        // }
 
-        vector<vector<int>> dp(piles.size(), vector<int>(piles.size(), -1));
+        // vector<vector<int>> dp(piles.size(), vector<int>(piles.size(), -1));
 
-        int alice = dfs(piles, 0, piles.size() - 1, 0, dp);
+        // int alice = dfs(piles, 0, piles.size() - 1, 0, dp);
 
-        if (alice > sum - alice) {
-            return true;
-        } else {
-            return false;
-        }
+        // if (alice > sum - alice) {
+        //     return true;
+        // } else {
+        //     return false;
+        // }
     }
 };
