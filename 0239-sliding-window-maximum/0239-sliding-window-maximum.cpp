@@ -1,36 +1,46 @@
+class Node {
+private:
+    int index;
+    int value;
+public:
+    Node(int index, int value) {
+        this -> index = index;
+        this -> value = value;
+    }
+
+    int getIndex() {
+        return this -> index;
+    }
+
+    int getValue() {
+        return this -> value;
+    }
+};
+
+struct CompareMax {
+    bool operator()(Node* a, Node* b) const {
+        return a->getValue() < b->getValue();
+    }
+};
+
 class Solution {
 public:
-    
-    void printPq(priority_queue<pair<int,int>> pq){
-        
-        while(!pq.empty()){
-            cout << pq.top().first << " " << pq.top().second << endl;
-            pq.pop();
-        }
-        cout << "==========" << endl;
-    }
-    
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        
-        vector<int> answer;
-        
-       priority_queue<pair<int, int> > pq;
- 
-       for(int i = 1; i <= nums.size(); i++){
-            if(i < k){
-                pq.push(make_pair(nums[i - 1] , i));
-            }else{
-                pq.push(make_pair(nums[i - 1], i));
-                
-              
-                while(pq.top().second <= i - k){
+        priority_queue<Node*, vector<Node*>, CompareMax> pq;
+        vector<int> result;
+
+        for (int i = 0; i < nums.size(); i++) {
+            pq.push(new Node(i, nums[i]));
+
+            if (i >= k - 1) {
+                while (pq.top() -> getIndex() <= i - k) {
                     pq.pop();
                 }
-                    
-                answer.push_back(pq.top().first);
-            }
-       }
 
-        return answer;
+                result.push_back(pq.top() -> getValue());
+            }
+        }
+
+        return result;
     }
 };
